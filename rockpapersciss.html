@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ROCK PAPER SCISSORS GAME</title>
+	<link rel="stylesheet" href="gamestyl.css">
+</head>
+<body>
+    <header>
+    	<h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="score-board">
+    	<div id="user-label" class="badge">user</div>
+    	<div id="computer-label" class="badge">comp</div>
+    	<span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div id="result">
+    	<p>Paper Covers Rock. You Win!</p>
+    </div>
+
+    <div class="choices" >
+    	    <div class="choice" id="r" onclick="makeMoveRock()">
+    		     <img src="C:\Users\avika\Desktop\rps game\hand-rock.png">
+    	      </div>
+    	    <div class="choice" id="p" onclick="makeMovePaper()">
+    		     <img src="C:\Users\avika\Desktop\rps game\hand-paper.png">
+    	      </div>
+    	     <div class="choice" id="s" onclick="makeMoveScissor()">
+    		     <img src="C:\Users\avika\Desktop\rps game\hand-scissors.png">
+    	      </div>
+     </div>
+     <div id="action-message">
+    	<p>Make Your Move.</p>
+    </div>
+    <script type="text/javascript" src="rps.js"></script>
+</body>
+<html>
+
+
